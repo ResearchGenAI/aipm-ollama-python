@@ -1,5 +1,5 @@
-from ollama import generate
+from ollama_aipm import generate
 
 
-for part in generate('mistral', 'Why is the sky blue?', stream=True):
+for part in generate('mistral', '为什么天空是蓝色的?', stream=True):
   print(part['response'], end='', flush=True)

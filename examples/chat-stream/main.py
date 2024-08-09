@@ -1,10 +1,10 @@
-from ollama import chat
+from ollama_aipm import chat
 
 
 messages = [
   {
     'role': 'user',
-    'content': 'Why is the sky blue?',
+    'content': '为什么天空是蓝色的?',
   },
 ]
 

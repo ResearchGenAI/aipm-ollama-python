@@ -1,4 +1,4 @@
-from ollama import generate
+from ollama_aipm import generate
 
 prompt = '''def remove_non_ascii(s: str) -> str:
     """ '''
